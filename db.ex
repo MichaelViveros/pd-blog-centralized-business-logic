@@ -1,4 +1,4 @@
-# `DB` stores the different endpoint responses in the db
+# `DB` didn't have any business logic in the first place so it remained unchanged
 defmodule DB do
 
   def save_successful_response(endpoint, payload, response) do
